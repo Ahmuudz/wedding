@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flutter Web (Supabase)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "deviceId": "chrome",
+            "toolArgs": [
+                "--web-port",
+                "8085",
+                "--dart-define",
+                "SUPABASE_URL=https://xicxlqexzlfgwsmxpqbk.supabase.co",
+                "--dart-define",
+                "SUPABASE_ANON_KEY=sb_publishable_EeQ-7Dy6HHrSd55WIpqIDw_p-xOSy3x"
+            ]
+        }
+    ]
+}
